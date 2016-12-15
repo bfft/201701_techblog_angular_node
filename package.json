@@ -1,0 +1,24 @@
+{
+  "name": "bfft_blog",
+  "version": "1.0.0",
+  "description": "Demo application to visualize real-time data with AngularJS, Node.js and Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bower": "^1.8.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "morgan": "^1.7.0",
+    "socket.io": "^1.6.0"
+  },
+  "author": "Tobias Dörner",
+  "license": "MIT",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/elaendar/bfft_blog.git"
+  }
+}

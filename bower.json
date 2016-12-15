@@ -1,0 +1,11 @@
+{
+  "name": "bfft_blog",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "angular-route": "^1.5.9",
+    "bootstrap": "^3.3.7",
+    "jquery": "1.12.4",
+    "rickshaw": "^1.6.0"
+  }
+}

@@ -1,0 +1,34 @@
+<!-- Template which gets loaded when the http://127.0.0.1/#/cpu route is called -->
+<!-- With ng-controller we declaring the controller to which this view gets bind -->
+<div id='cpu' class='container content_container' role='main' ng-controller='CpuCtrl'>
+
+    <!-- Using a panel from the Bootstrap framework to get a responsive panel element -->
+    <div class='panel panel-default'>
+        <!-- Heading of the panel -->
+        <div class='panel-heading'>
+            <!-- Using a customized directive.
+
+                 Because we declared the CpuCtrl as the controller we get the
+                 scope variable $scope.state from this controller injected into 
+                 the directive. The directive is using the scope variable and
+                 renders it's template into this DOM element.
+
+                 We could also directly access the scope variable in this template
+                 with the following annotation: {{state}} -->
+            <h3 class='panel-title'>
+                <cpu-info></cpu-info>
+            </h3>
+        </div>
+        <!-- Body of the panel in which we want to show the graph with the current
+             cpu utilization.
+             Note that we created our directives with the restrict opition 'E' 
+             therefore angular only recognizes our directive when it's called 
+             like an element. -->
+        <div class='panel-body'>
+            <!-- Setting the renderer and color attributes.
+                 In this case we want to draw a red area graph. -->
+            <cpu-graph renderer='area' color='#ff0000'></cpu-graph>
+        </div>
+    </div>
+
+</div>
