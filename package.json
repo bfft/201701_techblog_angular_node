@@ -1,5 +1,5 @@
 {
-  "name": "bfft_blog",
+  "name": "201701_techblog_angular_node",
   "version": "1.0.0",
   "description": "Demo application to visualize real-time data with AngularJS, Node.js and Socket.IO",
   "main": "server.js",
@@ -19,6 +19,7 @@
   "license": "MIT",
   "repository": {
         "type": "git",
-        "url": "https://github.com/elaendar/bfft_blog.git"
-  }
+        "url": "https://github.com/bfft/201701_techblog_angular_node.git"
+  },
+  "private": true
 }

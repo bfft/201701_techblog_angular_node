@@ -56,7 +56,7 @@ Delete the downloaded dependencies:
 
     or
 
-    git clean -fdx
+    $ git clean -fdx
 
 ## More Information
 * You can contact Tobias Dörner on any issue via [E-Mail](mailto:tobias.doerner@bfft.de)
