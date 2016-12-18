@@ -20,9 +20,9 @@ server.listen(app.get('port'), app.get('ip'), function () {
     console.log('Express server listening on ' + app.get('ip') + ':' + app.get('port'));
 });
 
-io.on('connection', function(socket) {
+io.on('connection', function (socket) {
     console.log('a user connected');
-    socket.on('disconnect', function() {
+    socket.on('disconnect', function () {
         console.log('user disconnected');
     });
 });

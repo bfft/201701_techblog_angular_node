@@ -8,6 +8,6 @@
 var app = angular.module('app', ['ngRoute', 'cpu']);
 
 // Manually bootstrap the above created AngularJS application.
-angular.element(document).ready(function() {
-   angular.bootstrap(document, ['app']);
+angular.element(document).ready(function () {
+    angular.bootstrap(document, ['app']);
 });

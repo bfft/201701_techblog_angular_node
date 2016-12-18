@@ -18,7 +18,7 @@ angular.module('cpu').controller('CpuCtrl', ['$scope', 'websocket', function ($s
 
         // Pushing the received data as an object into the graphs series array.
         // Used by the cpu-graph directive.
-        $scope.graph.series.addData({cpu: parseInt(state)});
+        $scope.graph.series.addData({ cpu: parseInt(state) });
         // Cause the graph to render it's series array.
         $scope.graph.render();
     });

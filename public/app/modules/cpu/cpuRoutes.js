@@ -5,7 +5,7 @@ angular.module('cpu').config(['$routeProvider', '$locationProvider', function ($
     // the prefix comes after the hashtag in the URL.
     // e.g.: http://127.0.0.1/#
     $locationProvider.hashPrefix('');
-    
+
     $routeProvider
         // Setting the route to
         // http://127.0.0.1/#/cpu

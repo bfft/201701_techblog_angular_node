@@ -5,7 +5,7 @@ const router = express.Router();
 // the index.html page, because every thing else gets generated 
 // by AngularJS in the Client
 router.get('/', function (req, res) {
-    res.render('index', {title: 'Demo'});
+    res.render('index', { title: 'Demo' });
 });
 
 module.exports = router;

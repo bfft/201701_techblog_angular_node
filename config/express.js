@@ -4,7 +4,7 @@ var session = require('express-session');
 var routes = require('../routes/index');
 var morgan = require('morgan');
 
-module.exports = function(app) {
+module.exports = function (app) {
     // Telling Express to use Port 3000 and localhost if there are 
     // no values configured in process.env
     app.set('port', process.env.PORT || 3000);
