@@ -2,8 +2,6 @@ function SimulatedCPU() {
     this.utilization = 0;
 };
 
-// Create a method which generats random values to simulate
-// the value for the CPU utilization.
 SimulatedCPU.prototype = {
     getUtilization: function () {
         var randomNumber = Math.random() * (5 - 0) + 0;
@@ -20,5 +18,4 @@ SimulatedCPU.prototype = {
 
 var simulatedCPU = new SimulatedCPU();
 
-// Export the module so that it can be required by other modules.
 module.exports = simulatedCPU;

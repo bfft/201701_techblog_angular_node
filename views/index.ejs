@@ -9,10 +9,7 @@
 
         <title><%= title %></title>
 
-        <!-- Load stylesheets which we got with Bower -->
         <link rel='stylesheet' href='/libs/bootstrap/dist/css/bootstrap.css'/>
-        <!--<link rel='stylesheet' href='/libs/bootstrap/dist/css/bootstrap-theme.css'/>-->
-        <!-- Customizing my own theme -->
         <link rel='stylesheet' href='/stylesheets/style.css'/>
         <link rel='stylesheet' href='/libs/rickshaw/rickshaw.css'/>
 
@@ -23,10 +20,8 @@
             <script src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js'></script>
         <![endif]-->
 
-        <!-- Load the Socket.IO library which is delivered by our Express webserver -->
         <script type='text/javascript' src='socket.io/socket.io.js'></script>
 
-        <!-- Load JavaScript libraries which we got with Bower -->
         <script type='text/javascript' src='/libs/angular/angular.js'></script>
         <script type='text/javascript' src='/libs/angular-route/angular-route.js'></script>
         <script type='text/javascript' src='/libs/jquery/dist/jquery.js'></script>
@@ -34,8 +29,6 @@
         <script type='text/javascript' src='/libs/d3/d3.js'></script>
         <script type='text/javascript' src='/libs/rickshaw/rickshaw.js'></script>
 
-        <!-- Before the our Angular application can be loaded it's neccessary to load the
-             AngularJS framework and it's dependencies -->
         <script type='text/javascript' src='/app/app.js'></script>
         <script type='text/javascript' src='/app/modules/cpu/cpu.js'></script>
         <script type='text/javascript' src='/app/modules/cpu/cpuRoutes.js'></script>
@@ -45,7 +38,6 @@
 
     </head>
     <body>
-        <!-- Creating a navbar with the Bootstrap framework for a responsive design -->
         <nav class='navbar navbar-inverse navbar-fixed-top'>
             <div class='container'>
                 <div class='navbar-header'>
@@ -68,11 +60,8 @@
                 </div>
             </div>
         </nav>
-        <!-- The views of the single-page application getting loaded in this div container. 
-             Navbar and footer are always the same -->
         <div id='stage' ng-view></div>
 
-        <!-- Creating a footer with the Bootstrap framework for a responsive design -->
         <div class='container'>
             <footer class='footer'>
                 <p>BFFT Gesellschaft für Fahrzeugtechnik mbH</p>
