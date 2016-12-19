@@ -21,7 +21,7 @@
 * Rickshaw - Defined as bower module in the [bower.json](bower.json) file.
 
 ## Quick Install
-The quickest way to see the demo in action ist to clone the project and utilize it like this:
+The quickest way to see the demo in action is to clone the project and utilize it like this:
 
 Install dependencies:
 
